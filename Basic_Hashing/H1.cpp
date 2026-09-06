@@ -23,6 +23,6 @@ int  main()
     while(q--){
         int number;
         cin>>number;
-        cout<<hash[number]<<endl;
+        cout<<"The number"<<number<<"appears"<<hash[number]<<"times"<<endl;
     }
 }
