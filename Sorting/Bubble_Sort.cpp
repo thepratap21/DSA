@@ -26,7 +26,7 @@ int main()
         cin>>arr[i];
 
     }
-    Bubble_Sort(arr,n);\
+    Bubble_Sort(arr,n);
     cout<<"Sorted elements are"<<endl;
 
     for(int i=0;i<n;i++)
