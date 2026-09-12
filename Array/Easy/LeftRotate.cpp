@@ -34,6 +34,7 @@ int main()
     cout<<"Enter the no of places you want to left rotate the array";
     int a;
     cin>>a;
+    a=a%n;
 
     cout<<"The entered elements are"<<endl;
     for(auto &it : arr)
@@ -43,3 +44,7 @@ int main()
 largest(arr,n,a);
 return 0;
 }
+
+
+
+
