@@ -2,11 +2,11 @@
 using namespace std;
 int  main()
 {
-    cout<<"Enter the no of arrays";
+    cout<<"Enter the no of arrays"<<" ";
     int n;
     cin>>n;
     int arr[n];
-    cout<<"Enter the array elements";
+    cout<<"Enter the array elements"<<" ";
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];
@@ -23,6 +23,6 @@ int  main()
     while(q--){
         int number;
         cin>>number;
-        cout<<"The number"<<number<<"appears"<<hash[number]<<"times"<<endl;
+        cout<<"The number"<< " " <<number<<" "<<"appears"<<" " <<hash[number]<<" "<<"times"<<endl;
     }
 }
