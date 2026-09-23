@@ -19,7 +19,7 @@ int main()
     int maxFreq=0;
     int secondmaxElement=-1;
     int secondmaxFreq=0;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<256;i++)
     {
       if(hash[i] > maxFreq)
 {
