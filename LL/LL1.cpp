@@ -39,7 +39,7 @@ int main()
         cin>>choice;
     }
     Node* temp=head;
-    while(temp!=0)
+    while(temp!=nullptr)
     {
         cout<<temp->data<<"  : ";
         temp=temp->next;
