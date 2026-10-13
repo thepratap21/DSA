@@ -70,7 +70,7 @@ int main()
         }
         newnode->next=trav->next;
         trav->next=newnode;
-        cout<<"New LL after isertion at"<<pos<<"ith position is"<<" ";
+        cout<<"New LL after isertion at"<<" "<<pos<<"ith position is"<<" ";
         node*temp1=head;
         while(temp1!=nullptr)
         {
